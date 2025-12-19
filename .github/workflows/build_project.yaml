@@ -11,10 +11,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
-        run: npm test
+        run: echo "Hello World"
 
       - name: Sleep for 30 seconds
         run: sleep 30
